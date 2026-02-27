@@ -1,4 +1,41 @@
-# 2026 Goal Inventory (Flat, Ranked)
+# 2026 Goal Inventory
+
+- **Make deployments real**
+  - CI/CD for batch jobs (DABs)
+  - CI/CD for web apps (ArgoCD + OpenShift)
+  - Stop manually cloning workflows and running shell scripts to deploy
+
+- **Automate the repetitive MLOps work**
+  - Repo creation, cluster provisioning, prod promotion — all currently manual and ad-hoc
+  - Figure out how much of my day is automatable and start chipping away at it
+  - Self-service docs and tooling so data scientists aren't blocked on me for common tasks
+
+- **Compass as a platform, not an app**
+  - Plugin architecture so AI devs build a service and get UI/auth/CRUD for free
+  - Reduce time-to-production for new AI use cases
+  - CLARITY proves the model
+
+- **Fix secrets and auth**
+  - Standardize credential patterns across production jobs
+  - Automated rotation so I'm not triaging auth failures every morning
+  - Move toward WIF and secret scopes, away from copying JSON files around
+
+- **Better developer infrastructure**
+  - Two new dev servers, clean setup, repeatable config
+  - A real development environment for genai app work
+
+- **Respond to what the teams actually asked for**
+  - Brainstorm action items: model guidance, GCP enablement, compute help, integration testing, feature monitoring
+  - LLM fine-tuning / open source SLMs as an exploratory track
+
+- **Keep production running**
+  - This is the baseline — batch job monitoring, incident response, platform admin, data scientist support
+  - New projects (CLARITY, Reconsiderations) entering the portfolio
+  - Service level metrics to formalize what "running well" means
+
+---
+
+## Detailed Inventory (Ranked Within Groups)
 
 ---
 
